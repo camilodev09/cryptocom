@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #f2d817;
+    border-radius: 100%;
+    border-bottom: #f2d817;
+    background-image:#f2d817 ;
+    border: 1px;
+}
+
+.red {
+    color: #f35353;
+}
