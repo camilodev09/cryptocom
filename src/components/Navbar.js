@@ -1,6 +1,6 @@
 
 
-import {FaBtc} from 'react-icons/fa'
+
 import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
+
+import logo from "../assets/favicon22.svg"
 
 const Navbar = () => {
   /*Show & Hidden Menu initial state = false then throught toogle it change  */
@@ -20,7 +22,9 @@ const Navbar = () => {
       <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between">
         <Link to="/">
           <div className='flex flex-row justify-center items-center '>
-          <FaBtc size={32} className='icon text-yellow-400 ' />
+
+          <img  src={logo} alt='logo-crytocom' />
+
            <h1 className=' ml-2 text-yellow-500 text-3xl'> Crypto<span className='text-yellow-300'>com</span></h1>
           </div>
         </Link>
